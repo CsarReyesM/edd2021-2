@@ -16,27 +16,6 @@ public interface Matriz<T> {
     
     /**
      * COMÉNTAME... 
-     * @param m
-     * @return 
-     */
-    Matriz<T> restaMatriz(Matriz<T> m);
-    
-    /**
-     * COMÉNTAME... 
-     * @param m
-     * @return 
-     */
-    Matriz<T> multiplicaMatriz(Matriz<T> m);
-    
-    /**
-     * COMÉNTAME... 
-     * @param escalar
-     * @return 
-     */
-    Matriz<T> multiplicaMatriz(T escalar);
-    
-    /**
-     * COMÉNTAME... 
      * @param renglon
      * @param columna
      * @return un elemento de tipo T en la posición (renglon, columna)

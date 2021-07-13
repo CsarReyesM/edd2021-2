@@ -42,21 +42,6 @@ public class MatrizAB<T extends Operable> implements Matriz<T> {
     }
 
     @Override
-    public Matriz<T> restaMatriz(Matriz<T> m) {
-        return null;
-    }
-
-    @Override
-    public Matriz<T> multiplicaMatriz(Matriz<T> m) {
-        return null;
-    }
-
-    @Override
-    public Matriz<T> multiplicaMatriz(T escalar) {
-        return null;
-    }
-
-    @Override
     public T getElemento(int renglon, int columna) throws IndexOutOfBoundsException {
         return (T) matriz[renglon][columna];
     }
