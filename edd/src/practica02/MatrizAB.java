@@ -41,6 +41,8 @@ public class MatrizAB<T extends Operable> implements Matriz<T> {
         return new MatrizAB(newMatriz);
     }
 
+    //INCLUYE LAS OPERACIONES FALTANTES
+
     @Override
     public T getElemento(int renglon, int columna) throws IndexOutOfBoundsException {
         return (T) matriz[renglon][columna];
@@ -48,16 +50,19 @@ public class MatrizAB<T extends Operable> implements Matriz<T> {
 
     @Override
     public void setElemento(int renglon, int columna) throws IndexOutOfBoundsException {
+	//IMPLEMENTACIÓN
         return;
     }
 
     @Override
     public int getRenglones() {
+	//IMPLEMENTACIÓN
         return 0;
     }
 
     @Override
     public int getColumnas() {
+	//IMPLEMENTACIÓN
         return 0;
     }
     
@@ -74,4 +79,9 @@ public class MatrizAB<T extends Operable> implements Matriz<T> {
         return matrizStr;
     }
 
+    @Override
+    public boolean equals(Object o) {
+	//IMPLEMENTACIÓN
+	return false;
+    }
 }

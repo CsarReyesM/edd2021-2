@@ -13,6 +13,8 @@ public interface Matriz<T> {
      * @return 
      */
     Matriz<T> sumaMatriz(Matriz<T> m);
+
+    //INCLUYE LAS OPERACIONES FALTANTES
     
     /**
      * COMÉNTAME... 
